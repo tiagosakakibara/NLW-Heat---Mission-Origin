@@ -25,19 +25,20 @@
           <img
             src="https://lorempixel.com/185/185/people/"
             alt="Foto pessoal"
+            id="UserImage"
           />
         </div>
 
         <h1 id="userName">Tiago Sakakibara</h1>
-        <a href="https://github.com/tiagosakakibara" target="_blank">
-          <img src="images/github.svg" alt="ícone github" />
-          tiagosakakibara</a
+        <a id="userLink" href="https://github.com/tiagosakakibara" target="_blank">
+          <img src="images/github.svg" alt="ícone github" /><span id="userLogin">
+          tiagosakakibara</span></a
         >
 
-        <p>An instructor focused on helping pople start programming for web</p>
+        <p id="userBio">An instructor focused on helping pople start programming for web</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="https://youtube.com/djtiagojp" target="_blank">
               <img
                 src="images/youtube.svg"
@@ -46,7 +47,7 @@
               />
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a href="https://facebook.com/tiagosakakibara" target="_blank">
               <img
                 src="images/facebook.svg"
@@ -55,7 +56,7 @@
               />
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://instagram.com/tiagosakakibara" target="_blank">
               <img
                 src="images/instagram.svg"
@@ -64,7 +65,7 @@
               />
             </a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="https://twitter.com/tiagosakakibar1" target="_blank">
               <img
                 src="images/twitter.svg"
@@ -76,23 +77,8 @@
         </ul>
       </div>
     </main>
-    <script>
-      const LinksSocioalMedia = {
-        github: 'tiagosakakibara',
-        youtube: 'djtiagojp',
-        facebook: 'tiagosakakibara',
-        instagram: 'tiagosakibara',
-        twitter: 'tiagosakakibar1'
-      }
+    
+    <script src="main.js"></script>
 
-      function changeSocialMediaLinks() {
-        for (let i = 0; i <= 10; i++) {
-          alert(i)
-        }
-      }
-
-      changeSocialMediaLinks()
-    </script>
-
-  </body>
+ </body>
 </html>
