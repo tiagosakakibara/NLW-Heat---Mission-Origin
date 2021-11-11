@@ -88,10 +88,75 @@ ul {
     justify-content: center;
 }
 
+#userLogin:hover{
+
+    text-shadow: -1px 0px 7px;
+      
+}
+
+
+
+.youtube {
+    
+}
+@keyframes animation {
+    0%{
+     transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+#userLogin:hover {
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.youtube:hover {
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+.facebook:hover {
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+.twitter:hover {
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+
 @media (min-width: 720px) {
 	/* estilos versão tablet */
 }
 
 @media (min-width: 960px) {
 	/* estilos versão desktop */
+}
+
+
+button:hover{
+    border: 4px solid #00d9ff;
+    color: #00d9ff;
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px; 
 }
